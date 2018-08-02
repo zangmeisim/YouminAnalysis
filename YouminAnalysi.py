@@ -8,10 +8,10 @@ import datetime
 
 def get_connect():   # 连接数据库信息
     conn_obj = pyhdb.connect(
-        host='10.150.16.99',
+        host='10.150****',
         port = 30015,
-        user = 'sapabap2',
-        password = 'Sap_7890'
+        user = 'sa***p2',
+        password = 'S**0'
     )
     return conn_obj
 
